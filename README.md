@@ -67,6 +67,14 @@
 
 ---
 
+## 🧩 Skills 支持
+
+当前项目已经支持基于 skills 的能力接入，既可以直接作为 `Spider_XHS` 的底层能力仓库使用，也可以通过标准化 skills 方式被上层 Agent 工具链引入。
+
+如果你希望直接复用已经封装好的 skills，可以查看 [XhsSkills](https://github.com/cv-cat/XhsSkills)。该仓库专门用于存放基于 `Spider_XHS` 封装的 Agent Skills，目前可被 `Clawbot`、`Claude Code`、`Codex` 等支持 skills 的工具直接引入与集成。
+
+---
+
 ## ⭐ 已实现功能
 
 | 模块 | 功能 | 状态 |
@@ -138,14 +146,6 @@ pgy = PuGongYingAPI()
 kol_list = pgy.get_some_user(num=50, cookies=cookies)
 best_kols = your_ai_agent(kol_list, brand_profile)
 ```
-
----
-
-## 🧩 Skills 支持
-
-当前项目已经支持基于 skills 的能力接入，既可以直接作为 `Spider_XHS` 的底层能力仓库使用，也可以通过标准化 skills 方式被上层 Agent 工具链引入。
-
-如果你希望直接复用已经封装好的 skills，可以查看 [XhsSkills](https://github.com/cv-cat/XhsSkills)。该仓库专门用于存放基于 `Spider_XHS` 封装的 Agent Skills，目前可被 `Clawbot`、`Claude Code`、`Codex` 等支持 skills 的工具直接引入与集成。
 
 ---
 
